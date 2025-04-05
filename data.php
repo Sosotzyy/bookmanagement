@@ -108,7 +108,7 @@ if ($result->num_rows === 1) {
             echo "Unknown role.";
         }
     } else {
-        echo "Invalid password.".$password.$user['password_hash'];
+        echo "Invalid password.";
     }
 } else {
     echo "No user found with that username.";
